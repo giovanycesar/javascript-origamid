@@ -23,6 +23,6 @@ var nstring = "50"
 var idade = 28
 var sobrenome = "Almeida"
 var nomeSobrenome = `${nome} ${sobrenome}`
-var ingles = "It' time"
+var ingles = "It's time"
 
 console.log (nome, nstring, idade, sobrenome, ingles, typeof nome, nomeSobrenome)

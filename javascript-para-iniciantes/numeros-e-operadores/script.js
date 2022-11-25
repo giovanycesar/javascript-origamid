@@ -1,5 +1,14 @@
+var n1 = 2e10
+console.log (n1)
+
+var n1 = 2e-2
+console.log (n1)
+
 var total = 10 + 5 * 2 / 2 + 20
 console.log (total)
+
+var testeNaN = 'Isso 100' * 2
+console.log (isNaN(testeNaN))
 
 var idade = "28s"
 console.log (+idade)

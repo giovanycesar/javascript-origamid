@@ -113,3 +113,10 @@ if (("Gato" === "gato") || (5 > 2)) {
 } else {
     console.log ("Falso")
 }
+
+var possuiGraducao = true
+var possuiDoutorado = false
+
+if (!possuiDoutorado) {
+    console.log ("Possui doutorado.")
+}

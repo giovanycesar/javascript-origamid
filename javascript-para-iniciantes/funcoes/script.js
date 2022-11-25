@@ -13,10 +13,6 @@ var total = 5 * pi ()
 console.log (total)*/
 
 
-
-
-
-
 /*function corFavorita (cor) {
     if (cor === "azul") {
         return "Olhe para o céu."
@@ -114,3 +110,4 @@ addEventListener ('click', function () {console.log ("Oi.")})*/
 
    addEventListener ('click', function () { console.log ("Giovany Almeida")
    })
+
