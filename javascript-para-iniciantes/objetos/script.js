@@ -23,6 +23,8 @@ console.log (Math.PI)
 
 console.log (Math.random ())
 
+*/
+
 var menu = {
     height: 800,
     width: 600,
@@ -35,17 +37,18 @@ var menu = {
 var bg = menu.backgroundcolor
 menu.backgroundcolor = "#000"
 
-menu.color = "blue"*/
+menu.color = "blue"
 
 var dados = {
     nome: "Giovany",
     sobrenome: "César",
-    nomeCompleto () {
-        return `${this.nome} ${this.sobrenome}`
-    }
 }
 
-console.log = (dados.nomeCompleto())
+dados.nomeCompleto = function () {
+    return `${this.nome} ${this.sobrenome}`
+}
+
+console.log(dados.nomeCompleto())
 
 var carro = {
     preco: 1000,
@@ -60,12 +63,13 @@ var cachorro = {
     raca: "labrador",
     cor: "preto",
     idade: 10,
-
-    comportamento (sexo) {
-        if (sexo === "homem") {
-            return "Latir"
-        } else { 
-            return "Nada"
+    latir (pessoa) {
+        if (pessoa == "homem") {
+            return "Cachorro late"
+        } else {
+            return "Cachorro não late"
         }
     }
 }
+
+console.log (cachorro.latir("homem"))
