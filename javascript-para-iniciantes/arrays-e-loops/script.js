@@ -18,7 +18,7 @@ for (var numero = 0; numero <= 5; numero++) {
 var i = 0
 while (i <= 5) {
     console.log (i);
-    i++;
+    i = i + 5;
 }
 
 var videoGames = ["Switch", "PS4", "XBOX", "3DS"];
@@ -34,7 +34,7 @@ var frutas = ["Banana", "Pera", "Maçã", "Uva"];
 
 frutas.forEach (function(f, n, a) {
     console.log (f, n, a)
-})*/
+})
 
 var anosCopa = [1959, 1962, 1970, 1994, 2002];
 
@@ -53,4 +53,4 @@ for (var i = 0; i < frutas.length; i++) {
 
 
 var ultimaFruta = frutas.length -1
-console.log (frutas[ultimaFruta])
+console.log (frutas[ultimaFruta])*/
