@@ -52,5 +52,6 @@ for (var i = 0; i < frutas.length; i++) {
 }
 
 
-var ultimaFruta = frutas.length -1
-console.log (frutas[ultimaFruta])*/
+var ultimaFruta = frutas[frutas.length - 1]
+console.log(ultimaFruta)*/
+
