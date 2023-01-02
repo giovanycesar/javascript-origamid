@@ -1,3 +1,5 @@
+function initTabNav() {
+
 const tabMenu = document.querySelectorAll('.js-tabmenu li')
 const tabContent = document.querySelectorAll('.js-tabcontent section')
 
@@ -18,3 +20,32 @@ if (tabContent && tabMenu) {
         })
       });
 }
+
+}
+
+initTabNav();
+
+function initAccordion() {
+
+const accordionList = document.querySelectorAll('.js-accordion dt')
+const ativeClass = 'ativo'
+
+
+if (accordionList) { 
+accordionList[0].classList.toggle(ativeClass)
+accordionList[0].nextElementSibling.classList.toggle(ativeClass)
+
+
+function activeAccordion() {
+    this.classList.toggle(ativeClass)
+    this.nextElementSibling.classList.toggle(ativeClass)
+}
+
+accordionList.forEach(function(item){
+    item.addEventListener('click', activeAccordion)
+});
+
+}
+}
+
+initAccordion()
